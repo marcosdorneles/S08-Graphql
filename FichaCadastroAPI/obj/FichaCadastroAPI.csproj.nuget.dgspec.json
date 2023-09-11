@@ -1,0 +1,158 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/marcosguilhermedornelesstaub/Documents/FichaCadastroSln/FichaCadastroAPI/FichaCadastroAPI.csproj": {}
+  },
+  "projects": {
+    "/Users/marcosguilhermedornelesstaub/Documents/FichaCadastroSln/FichaCadastroAPI/FichaCadastroAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/marcosguilhermedornelesstaub/Documents/FichaCadastroSln/FichaCadastroAPI/FichaCadastroAPI.csproj",
+        "projectName": "FichaCadastroAPI",
+        "projectPath": "/Users/marcosguilhermedornelesstaub/Documents/FichaCadastroSln/FichaCadastroAPI/FichaCadastroAPI.csproj",
+        "packagesPath": "/Users/marcosguilhermedornelesstaub/.nuget/packages/",
+        "outputPath": "/Users/marcosguilhermedornelesstaub/Documents/FichaCadastroSln/FichaCadastroAPI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/marcosguilhermedornelesstaub/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/marcosguilhermedornelesstaub/Documents/FichaCadastroSln/FichaCadastroRabbitMQ/FichaCadastroRabbitMQ.csproj": {
+                "projectPath": "/Users/marcosguilhermedornelesstaub/Documents/FichaCadastroSln/FichaCadastroRabbitMQ/FichaCadastroRabbitMQ.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.11, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100-preview.6.23330.14/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/marcosguilhermedornelesstaub/Documents/FichaCadastroSln/FichaCadastroRabbitMQ/FichaCadastroRabbitMQ.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/marcosguilhermedornelesstaub/Documents/FichaCadastroSln/FichaCadastroRabbitMQ/FichaCadastroRabbitMQ.csproj",
+        "projectName": "FichaCadastroRabbitMQ",
+        "projectPath": "/Users/marcosguilhermedornelesstaub/Documents/FichaCadastroSln/FichaCadastroRabbitMQ/FichaCadastroRabbitMQ.csproj",
+        "packagesPath": "/Users/marcosguilhermedornelesstaub/.nuget/packages/",
+        "outputPath": "/Users/marcosguilhermedornelesstaub/Documents/FichaCadastroSln/FichaCadastroRabbitMQ/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/marcosguilhermedornelesstaub/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.11, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100-preview.6.23330.14/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
